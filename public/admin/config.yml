@@ -1,0 +1,36 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: public/images/uploads
+public_folder: /images/uploads
+site_url: https://lglab.ca
+slug:
+  encoding: ascii
+  clean_accents: true
+collections:
+- label: Gallery Images
+  label_singular: Gallery Image
+  name: gallery_images
+  description: Images to appear in the gallery.
+  create: true
+  folder: content/gallery
+  identifier_field: title
+  slug: "{{slug}}"
+  fields:
+  - label: Title
+    name: title
+    hint: The title of the image
+    widget: string
+  - label: Description
+    name: description
+    hint: A description of the image
+    widget: text
+  - label: Alt Text
+    name: alt
+    hint: Alt text describing the image for users with screen readers, or when the image is unable to load.
+    widget: text
+  - label: Image
+    name: image
+    hint: The image file
+    widget: image
+    allow_multiple: false
