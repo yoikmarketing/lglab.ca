@@ -1,6 +1,6 @@
 ---
-title: Example Image
-description: This image is an example
-alt: An example
-image: /images/uploads/example.png
+title: Tokyo Disneyland
+description: Beautiful shot of Tokyo Disneyland, Urayasu, Japan
+alt: Tokyo Disneyland, Urayasu, Japan
+image: /images/uploads/japan.jpeg
 ---
