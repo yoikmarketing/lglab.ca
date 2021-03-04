@@ -4,7 +4,6 @@
   "scripts": {
     "develop": "next",
     "build": "next build",
-    "distribute": "next build && next export -o dist/",
     "start": "next start"
   },
   "dependencies": {
