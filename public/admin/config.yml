@@ -77,16 +77,12 @@ collections:
   description: Members current/alumni of lglab.
   create: true
   folder: content/members
-  identifier_field: last name
+  identifier_field: name
   slug: "{{slug}}"
   fields:
-  - label: First Name
-    name: first name
-    hint: First name of the memeber.
-    widget: string
-  - label: Last Name
-    name: last name
-    hint: Last name of the member.
+  - label: Name
+    name: name
+    hint: Name of the member.
     widget: string
   - label: Education
     name: education
