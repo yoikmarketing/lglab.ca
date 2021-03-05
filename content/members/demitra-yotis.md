@@ -1,6 +1,5 @@
 ---
-first name: Demitra
-last name: Yotis
+name: Demitra Yotis
 education: BS, Laurier Univerisy
 field of study: Biology
 institution: Western University
