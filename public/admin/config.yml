@@ -35,7 +35,7 @@ collections:
     widget: image
     allow_multiple: false
 - label: Projects
-  label_singular: projects
+  label_singular: project
   name: projects
   description: Current projects of lglab.
   create: true
