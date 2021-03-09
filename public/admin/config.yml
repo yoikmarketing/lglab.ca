@@ -59,6 +59,12 @@ collections:
     hint: The image file
     widget: image
     allow_multiple: false
+  - label: Date published
+    name: published
+    hint: A date to associate with this picture. Perhaps when it was taken.
+    widget: datetime
+    time_format: false
+    picker_utc: true
 - label: Projects
   label_singular: Project
   name: projects
