@@ -4,7 +4,8 @@ description: Acute kidney injury (AKI) is where your kidneys suddenly stop worki
 alt: Kidney with acute injury
 image: /images/uploads/aki.jpeg
 members:
-- demitra-yotis
+  - demitra-yotis
+  - dr-g
 tags:
   - injury
 ---
