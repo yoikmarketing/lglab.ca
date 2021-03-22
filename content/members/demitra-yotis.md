@@ -1,6 +1,8 @@
 ---
 name: Demitra Yotis
-education: BS, Laurier Univerisy
+education: 
+  - BS, Laurier Univerisy
+  - something else
 field of study: Biology
 institution: Western University
 bio: Ben's cousin
