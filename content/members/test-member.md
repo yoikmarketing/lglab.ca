@@ -5,7 +5,8 @@ education:
 field of study: " "
 institution: " "
 bio: " "
-projects: []
+projects:
+  - AnotherProject
 linkedin: " "
 alt: " "
 image: /images/uploads/drg.png
