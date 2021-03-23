@@ -17,7 +17,44 @@ export default function Members({ currentMembers, alumniMembers }) {
   return (
     <div>
       <h1>This is our team!</h1>
-      <Member currentMembers={currentMembers} alumniMembers={alumniMembers} />
+      <div>
+        <h2>Current Members</h2>
+        <div>
+          {currentMembers.map((member) => (
+            <Member 
+              key = {member.name}
+              id = {member.id} 
+              name = {member.name}
+              education = {member.education}
+              institution = {member.institution}
+              bio = {member.bio}
+              projects = {member.projects}
+              linkedin = {member.linkedin}
+              image = {member.image}
+              alt = {member.alt}
+            />
+          ))}
+        </div>
+      </div>
+      <div>
+        <h2>Alumni Members</h2>
+        <div>
+          {alumniMembers.map((member) => (
+            <Member 
+              key = {member.name}
+              id = {member.id} 
+              name = {member.name}
+              education = {member.education}
+              institution = {member.institution}
+              bio = {member.bio}
+              projects = {member.projects}
+              linkedin = {member.linkedin}
+              image = {member.image}
+              alt = {member.alt}
+            />
+          ))}
+        </div>
+      </div>
     </div>
   )
 }

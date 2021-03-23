@@ -9,7 +9,7 @@ bio: Ben's cousin
 projects:
 -  Acute Kidney Injury
 linkedin: "https://www.linkedin.com/in/demitra-yotis-3b323a169/"
-alt text: A photo of Demitra
-image: /images/uploads/member0.jpeg
+alt: A photo of Demitra
+image: /images/uploads/aki.jpeg
 alumni: false
 ---
