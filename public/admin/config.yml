@@ -134,7 +134,14 @@ collections:
   - label: Projects
     name: projects
     hint: Project or projects that the member worked on.
-    widget: list
+    widget: relation
+    multiple: true
+    collection: projects
+    search_fields:
+    - "name"
+    value_field: "{{slug}}"
+    display_fields:
+    - "name"
   - label: LinkedIn
     name: linkedin
     hint: The link to the members Linked In
