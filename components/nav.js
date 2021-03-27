@@ -39,6 +39,7 @@ const more = [
   }
 ]
 
+// This should be replaced with content loaded from "getStaticProps" showing real blog posts, assuming they choose to run a blog.
 const recentPosts = [
   {
     title: "Boost your conversion rate",
