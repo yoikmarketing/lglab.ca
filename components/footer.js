@@ -21,12 +21,7 @@ const links = [
     name: "GitHub",
     url: "https://github.com/yoiksoft",
     Icon: FaGithub
-  },
-  {
-    name: "Dribbble",
-    url: "https://dribbble.com/yoiksoft",
-    Icon: FaDribbble
-  },
+  }
 ]
 
 export default function Footer() {
