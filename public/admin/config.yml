@@ -26,6 +26,10 @@ collections:
       name: qualifications
       widget: list
       allow_add: true
+    - label: Alt Text
+      name: alt
+      hint: Alt text describing the image for users with screen readers, or when the image is unable to load.
+      widget: text
     - label: Image
       name: image
       widget: image
