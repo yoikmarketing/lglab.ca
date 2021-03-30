@@ -13,8 +13,7 @@ export default function About({ title, qualifications, image, alt, body }) {
           <li key={qualification}>{qualification}</li>
         ))}
       </ul>
-      <p>{body}</p>
+      <div dangerouslySetInnerHTML={{ __html: body }}></div>
     </div>
   )
 }
-
