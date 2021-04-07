@@ -2,13 +2,12 @@
 name: Joshua C
 education:
   - NA
-field of study: |-
+field of study: NA
+institution: NA
+bio: |
   Post Doc
   Microbiology & Immunology
   Western University
-institution: NA
-bio: |
-  NA
 projects:
   - acute-kidney-injury
 linkedin: NA
