@@ -12,7 +12,7 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
   scelerisque non blandit feugiat, ultricies et sapien. Praesent scelerisque
   facilisis lacus at aliquet. Donec a scelerisque nisl. Nam condimentum rhoncus
   consectetur. "
-alt: Image of Sample Project 1
+alt: Image of Another Project
 image: /images/uploads/sampleproject1.jpeg
 members:
   - dr-g
