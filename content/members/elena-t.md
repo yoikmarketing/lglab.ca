@@ -2,9 +2,12 @@
 name: Elena T
 education:
   - NA
-field of study: Post Doc Microbiology & Immunology Lawson Health Research Institute
+field of study: NA
 institution: NA
-bio: NA
+bio: |-
+  Post Doc 
+  Microbiology & Immunology 
+  Lawson Health Research Institute
 projects:
   - another-project
 linkedin: NA
