@@ -2,12 +2,12 @@
 name: Varunaavee S
 education:
   - NA
-field of study: |-
+field of study: NA
+institution: NA
+bio: |-
   Undergraduate Student
   BMSc, Scholar's Electives
   Western University
-institution: NA
-bio: NA
 projects:
   - acute-kidney-injury
 linkedin: NA
