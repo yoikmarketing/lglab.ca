@@ -20,6 +20,7 @@
     "sharp": "^0.27.2"
   },
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
     "autoprefixer": "10.0.2",
     "postcss": "^8.1.13",
     "tailwindcss": "^2.0.2"

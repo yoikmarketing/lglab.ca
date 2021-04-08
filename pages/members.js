@@ -19,9 +19,9 @@ export default function Members({ currentMembers, alumniMembers }) {
       <h1>This is our team!</h1>
       <div>
         <h2>Current Members</h2>
-        <div className="flex flex-row flex-wrap m-1 justify-center">
+        <div className="p-4 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {currentMembers.map((member) => (
-            <Member 
+            <Member
               key = {member.name}
               id = {member.id} 
               name = {member.name}
@@ -38,7 +38,7 @@ export default function Members({ currentMembers, alumniMembers }) {
       </div>
       <div>
         <h2>Alumni Members</h2>
-        <div className="flex flex-row flex-wrap m-1 justify-center">
+        <div className="p-4 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {alumniMembers.map((member) => (
             <Member 
               key = {member.name}
