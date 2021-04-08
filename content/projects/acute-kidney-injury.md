@@ -13,8 +13,7 @@ description: Praesent ultrices commodo justo, at auctor lectus cursus quis. Sed
 alt: Kidney with acute injury
 image: /images/uploads/aki.jpeg
 members:
-  - demitra-yotis
-  - dr-g
+  - demitra-y
 tags:
   - injury
 ---

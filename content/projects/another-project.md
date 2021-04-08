@@ -15,5 +15,5 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
 alt: Image of Another Project
 image: /images/uploads/sampleproject1.jpeg
 members:
-  - dr-g
+- phoebe-z
 ---
