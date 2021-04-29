@@ -1,5 +1,5 @@
 ---
-name: Acute Kidney Injury
+name: Acute Kidney Injury & Chronic Kidney Disease
 description: Praesent ultrices commodo justo, at auctor lectus cursus quis. Sed
   eget cursus lorem. Pellentesque viverra purus at arcu dictum rutrum. Phasellus
   quis interdum mauris, id vehicula nisl. Donec sagittis interdum sem. Maecenas
@@ -11,9 +11,9 @@ description: Praesent ultrices commodo justo, at auctor lectus cursus quis. Sed
   vulputate elit volutpat, auctor venenatis nisi commodo. Fusce vitae lobortis
   massa.
 alt: Kidney with acute injury
-image: /images/uploads/aki.jpeg
+image: /images/uploads/out.jpg
 members:
-  - demitra-y
+  - elena-t
 tags:
   - injury
 ---
