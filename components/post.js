@@ -1,19 +1,23 @@
+import { Fragment, useState, useRef } from 'react'
+import { Dialog, Transition } from '@headlessui/react'
+import { CheckIcon } from '@heroicons/react/outline'
+
 export default function Post({ title, description, image, alt, published }) {
+  const [open, setOpen] = useState(false)
+  const closeButtonRef = useRef()
+
   return (
-    <div className="bg-blue-400 rounded-lg">
-      <div className="p-2">
-        <div className="aspect-w-4 aspect-h-3 relative">
-          <img className="object-cover shadow-lg rounded-lg" src={image} alt={alt}/>
-          <div className="grid absolute content-end">
-            <h2 className="text-center opacity-75 bg-gray-400 object-cover shadow-lg rounded-lg">{title}</h2>
-          </div>
-        </div>
-        <div className="text-center">
-          <h3>{description}</h3>
-          <h3>Published: {published}</h3>
-        </div>
+    <li key={image} className="relative"><a href={image}>
+      <div className="focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500 group block w-full aspect-w-10 aspect-h-7 rounded-lg overflow-hidden">
+        <img src={image} alt={alt} className="group-hover:opacity-75 object-cover pointer-events-none" />
+        <button type="button" onClick={() => setOpen(true)} className="absolute inset-0">
+          <span className="sr-only">View details for {title}</span>
+        </button>
       </div>
-    </div>
+      <p className="mt-2 block text-sm font-medium text-gray-900 truncate pointer-events-none">{title}</p>
+      <p className="block text-sm font-medium text-gray-500 pointer-events-none">{description}</p>
+    </a></li>
   )
 }
+
 

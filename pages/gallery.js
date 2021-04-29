@@ -1,30 +1,29 @@
-import Post from '../components/post'
 import Content from "../components/content"
 import { getAllGalleryImages } from '../lib/gallery'
+import { getAllProjects } from "../lib/projects"
+import Heading from "../components/heading"
+import Gallery from "../components/gallery"
 
 export async function getStaticProps() {
   const galleryImages = getAllGalleryImages()
+  const projects = getAllProjects()
   return {
     props: {
-      galleryImages
+      galleryImages,
+      projects
     }
   }
 }
 
-export default function Gallery({ galleryImages }) {
+export default function GalleryPage({ galleryImages, projects }) {
   return(
-    <Content>
-      <div className="p-4 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {galleryImages.map((post) => (
-          <Post 
-            key = {post.title}
-            title = {post.title}
-            description = {post.description}
-            image = {post.image}
-            alt = {post.alt}
-            published = {post.published}
-          />
-        ))}
+    <Content projects={projects}>
+      <Heading
+        title="Gallery"
+        lead="See what's going on with the LG Lab team."
+      />
+      <div className="container mx-auto px-6 py-10 md:py-16">
+        <Gallery posts={galleryImages} />
       </div>
     </Content>
   )

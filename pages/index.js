@@ -1,16 +1,27 @@
-import Landing from "../components/landing"
-import Content from "../components/content"
+import Hero from "../components/hero"
+import Nav from "../components/nav"
+import Footer from "../components/footer"
+import { getAllProjects } from "../lib/projects"
 
-export default function Home() {
+export default function Home({ projects }) {
   return (
-    <div>
-      <Landing />
-      <Content>
-        <h4 className="text-5xl text-center text-gray-700 dark:text-gray-300">
-          More information Section
-        </h4>
-      </Content>
+    <div className="min-h-screen flex flex-col">
+      <Nav
+        className="fixed"
+        research={projects}
+      />
+      <Hero
+        image="/images/uploads/aki.jpeg"
+      />
     </div>
-    
   )
+}
+
+export async function getStaticProps() {
+  const projects = getAllProjects()
+  return {
+    props: {
+      projects
+    }
+  }
 }
