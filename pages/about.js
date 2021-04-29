@@ -1,5 +1,6 @@
 import Content from '../components/content'
 import About from '../components/about'
+import Heading from "../components/heading"
 import { getPage } from '../lib/pages'
 import { getAllProjects } from "../lib/projects"
 
@@ -18,6 +19,9 @@ export default function AboutPage({ aboutInfo, projects }) {
   return(
     <Content projects={projects}>
       <div>
+        <Heading
+          title="Dr. Lakshman Gunaratnam"
+        />
         <About
           key = {aboutInfo.title}
           title = {aboutInfo.title}

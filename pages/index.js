@@ -11,8 +11,9 @@ export default function Home({ projects }) {
         research={projects}
       />
       <Hero
-        image="/images/uploads/aki.jpeg"
+        image="/images/uploads/kidneysection1.jpg"
       />
+      <Footer />
     </div>
   )
 }

@@ -19,7 +19,7 @@ export default function Hero({ title, image }) {
     return (
       <div className="flex-grow flex justify-center items-center p-10">
         <Tilt
-          perspective={3000}
+          perspective={1000}
           trackOnWindow={true}
           className="flex justify-center items-center bg-gray-50 border-4 border-gray-200"
           style={{
@@ -35,7 +35,7 @@ export default function Hero({ title, image }) {
           <h1
             className="text-7xl text-gray-50 font-semibold"
             style={{
-              transform: "translateZ(30px)"
+              transform: "translateZ(20px)"
             }}
           >{title || "The LG Lab"}</h1>
         </Tilt>
@@ -47,9 +47,13 @@ export default function Hero({ title, image }) {
     <div className="flex-grow flex justify-center items-center p-10">
       <div className="flex justify-center items-center bg-green-500" style={{
         width: "100%",
-        height: "70vh"
+        height: "70vh",
+        backgroundImage: `url(${image})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundPosition: "center"
       }}>
-        <h1>Booga</h1>
+        <h1 className="text-5xl text-gray-50 font-semibold">{title || "The LG Lab"}</h1>
       </div>
     </div>
   )
