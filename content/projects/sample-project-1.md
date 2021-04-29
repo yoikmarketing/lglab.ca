@@ -1,5 +1,5 @@
 ---
-name: Sample Project 1
+name: Kidney Transplantation
 description: "Proin efficitur sodales blandit. Proin sit amet turpis et lacus
   aliquet efficitur. Cras tincidunt nunc tellus, eu hendrerit enim posuere at.
   Suspendisse at arcu vel metus rhoncus imperdiet ut eget turpis. Pellentesque
@@ -9,5 +9,5 @@ description: "Proin efficitur sodales blandit. Proin sit amet turpis et lacus
 alt: Alt text of sample project 1
 image: /images/uploads/sampleproject2.jpeg
 members:
-  - phoebe-z
+  - shabitha-a
 ---
