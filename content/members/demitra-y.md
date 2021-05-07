@@ -1,15 +1,13 @@
 ---
 name: Demitra Y
 education:
-  - NA
-field of study: NA
-institution: NA
-bio: |-
-  Masters Student
-  Microbiology & Immunology
-  Western University
+  - changetoposition
+field of study: remove
+institution: Western (leave)
+bio: |
+  make optional
 projects:
-  - acute-kidney-injury
+  - renal-cell-carcinoma
 linkedin: NA
 alt: NA
 image: /images/uploads/demitray.jpg
