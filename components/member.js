@@ -44,13 +44,13 @@ export default function Example({ title, lead, people }) {
           <div className="lg:col-span-2">
             <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8">
               {people.map((person) => (
-                <li key={person.name}>
+                <li key={person.name} id={person.id}>
                   <div className="space-y-4">
                     <div className="aspect-w-3 aspect-h-2">
                       <img className="object-cover shadow-lg rounded-lg" src={person.image} alt="" />
                     </div>
                     <div className="text-lg leading-6 font-medium space-y-1">
-                      <h3 id={person.id}>{person.name}</h3>
+                      <h3>{person.name}</h3>
                       <p className="text-indigo-600">{person.education}</p>
                     </div>
                     <div className="text-lg">
