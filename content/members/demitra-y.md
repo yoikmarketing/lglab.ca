@@ -13,5 +13,5 @@ projects:
 linkedin: NA
 alt: NA
 image: /images/uploads/demitray.jpg
-alumni: false
+alumni: true
 ---
