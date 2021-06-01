@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Project({ name, description, image, alt, members, tags }) {
+export default function Project({ id, name, description, image, alt, members, tags }) {
   return(
     // <div className="bg-gray-100 m-10 p-20">
     //   <h2>Project Name: {name}</h2>
@@ -21,7 +21,7 @@ export default function Project({ name, description, image, alt, members, tags }
     //   </div>
     //   <h4>Project Tags: {tags}</h4>
     // </div>
-    <div className="bg-white overflow-hidden">
+    <div id={id} className="bg-white overflow-hidden">
       <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
         <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">

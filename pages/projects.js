@@ -21,8 +21,9 @@ export default function Projects({ lgLabProjects }) {
       />
 
       {lgLabProjects.map((project) => (
-        <Project 
+        <Project
           key={project.name}
+          id={project.id}
           name={project.name}
           description={project.description}
           image={project.image}

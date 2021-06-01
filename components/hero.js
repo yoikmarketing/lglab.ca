@@ -20,6 +20,8 @@ export default function Hero({ title, image }) {
       <div className="flex-grow flex justify-center items-center p-10">
         <Tilt
           perspective={1000}
+          tiltMaxAngleX={10}
+          tiltMaxAngleY={10}
           trackOnWindow={true}
           className="flex flex-col justify-center items-center bg-gray-50 border-4 border-gray-200 text-gray-50 space-y-4 text-center px-20"
           style={{
@@ -37,13 +39,13 @@ export default function Hero({ title, image }) {
             style={{
               transform: "translateZ(20px)"
             }}
-          >{title || "The LG Lab"}</h1>
+          >{title || "The Gunaratnam Lab"}</h1>
           <h3
-            className=""
+            className="uppercase text-lg"
             style={{
               transform: "translateZ(15px)"
             }}
-          >{"TISSUE INJURY & REPAIR | WESTERN UNIVERSITY"}<br />{"LONDON HEALTH SCIENCES CENTRE"}</h3>
+          >{"Western University"}<br />{"London Health Sciences Centre"}</h3>
         </Tilt>
       </div>
     )
@@ -59,10 +61,10 @@ export default function Hero({ title, image }) {
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}>
-        <h1 className="text-5xl text-gray-50 font-semibold">{title || "The LG Lab"}</h1>
+        <h1 className="text-5xl text-gray-50 font-semibold">{title || "The Gunaratnam Lab"}</h1>
         <h3
-          className=""
-        >{"TISSUE INJURY & REPAIR | WESTERN UNIVERSITY"}<br />{"LONDON HEALTH SCIENCES CENTRE"}</h3>
+          className="uppercase"
+        >{"Western University"}<br />{"London Health Sciences Centre"}</h3>
       </div>
     </div>
   )
