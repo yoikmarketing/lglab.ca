@@ -163,4 +163,23 @@ collections:
     name: alumni
     widget: boolean
     default: false
-    
+- label: Funding
+  label_singular: Funding
+  name: funding
+  description: People/Companies who fund LG Lab
+  create: true
+  folder: content/funding
+  identifier_field: name
+  slug: "{{slug}}"
+  - label: Name
+    name: name
+    hint: Name of the funding source.
+    widget: string
+  - label: Alt Text
+    name: alt
+    hint: Alt text describing the image for users with screen readers, or when the image is unable to load.
+    widget: text
+  - label: Image
+    name: image
+    hint: An image of the funding source.
+    widget: image

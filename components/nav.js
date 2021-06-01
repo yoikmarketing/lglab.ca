@@ -51,6 +51,12 @@ export default function Nav() {
               </a>
             </Link>
 
+            <Link href="/funding">
+              <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+                Funding Sources
+              </a>
+            </Link>
+
             <a
               className="text-base font-medium text-gray-500 hover:text-gray-900"
               href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Gunaratnam+L"
