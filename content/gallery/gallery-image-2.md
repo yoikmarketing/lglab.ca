@@ -1,7 +1,7 @@
 ---
-title: Gallery Image 2
-description: Description of gallery image 2
-alt: Alt Text
+title: Gift from Dr. Gunaratnam
+description: Saranga's first stethoscope for medical school after graduating from her MSc.
+alt: N/A
 image: /images/uploads/g2.jpeg
 published: 2021-01-06T19:18:24.504Z
 ---
