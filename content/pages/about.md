@@ -1,7 +1,7 @@
 ---
 title: Dr. Lakshman Gunaratnam, MD, MSc, FRCPC
 qualifications:
-  - blank
+  - Clinician-Scientist
 alt: Dr. Lakshman Gunaratnam in our lab at the Mathew Mailing Centre of
   Translational Transplantation Research - University Hospital
 image: /images/uploads/drg.png
