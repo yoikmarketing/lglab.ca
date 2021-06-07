@@ -1,5 +1,5 @@
 ---
-title: Gallery Image 6
+title: Grad Club with The Lab
 description: Description of gallery image 6
 alt: Alt Text
 image: /images/uploads/g6.jpeg
