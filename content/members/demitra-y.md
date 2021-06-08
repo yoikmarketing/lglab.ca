@@ -1,5 +1,5 @@
 ---
-name: Demitra Y
+name: Demitra M. Y
 education:
   - changetoposition
 field of study: remove
