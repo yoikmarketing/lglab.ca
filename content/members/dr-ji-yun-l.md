@@ -10,7 +10,6 @@ bio: |-
   Western University
 projects:
   - acute-kidney-injury
-linkedin: NA
 alt: |
   NA
 image: /images/uploads/jiyunl.jpg

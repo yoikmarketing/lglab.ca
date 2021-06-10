@@ -1,26 +1,11 @@
-import { FaFacebook, FaInstagram, FaTwitter, FaGithub, FaDribbble } from "react-icons/fa"
+import { FaTwitter } from "react-icons/fa"
 
 const name = "Gunaratnam Lab"
 const links = [
   {
-    name: "Facebook",
-    url: "https://facebook.com/yoiksoft",
-    Icon: FaFacebook
-  },
-  {
-    name: "Instagram",
-    url: "https://instagram.com/yoiksoft",
-    Icon: FaInstagram
-  },
-  {
     name: "Twitter",
-    url: "https://twitter.com/yoiksoft",
+    url: "https://twitter.com/lglab_lhsc",
     Icon: FaTwitter
-  },
-  {
-    name: "GitHub",
-    url: "https://github.com/yoiksoft",
-    Icon: FaGithub
   }
 ]
 
