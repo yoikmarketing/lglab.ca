@@ -10,8 +10,8 @@ export default function Nav() {
   return (
     <div className="relative z-50 w-full bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex justify-start items-center py-6 lg:space-x-10">
-          <div className="flex justify-start">
+        <div className="flex justify-start items-center py-6 md:space-x-10">
+          <div className="flex justify-start flex-shrink-0">
             <Link href="/">
               <a>
                 <span className="sr-only">The Gunaratnam Lab</span>
@@ -19,53 +19,53 @@ export default function Nav() {
               </a>
             </Link>
           </div>
-          <div className="-mr-2 -my-2 lg:hidden ml-auto">
+          <div className="-mr-2 -my-2 md:hidden ml-auto">
             <button type="button" onClick={() => setIsMobileMenuOpen(true)} className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
               <span className="sr-only">Open menu</span>
               <HiOutlineMenu className="h-6 w-6" />
             </button>
           </div>
-          <nav className="hidden lg:flex space-x-10">
+          <nav className="hidden md:flex flex-wrap">
 
             <Link href="/about">
-              <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <a className="text-base font-medium text-gray-500 hover:text-gray-900 my-2 mx-5">
                 Dr. Gunaratnam
               </a>
             </Link>
 
             <Link href="/projects">
-              <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <a className="text-base font-medium text-gray-500 hover:text-gray-900 my-2 mx-5">
                 Research
               </a>
             </Link>
 
             <Link href="/team">
-              <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <a className="text-base font-medium text-gray-500 hover:text-gray-900 my-2 mx-5">
                 Team
               </a>
             </Link>
 
             <Link href="/gallery">
-              <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <a className="text-base font-medium text-gray-500 hover:text-gray-900 my-2 mx-5">
                 Gallery
               </a>
             </Link>
 
             <Link href="/funding">
-              <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <a className="text-base font-medium text-gray-500 hover:text-gray-900 my-2 mx-5">
                 Funding Sources
               </a>
             </Link>
 
             <a
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-base font-medium text-gray-500 hover:text-gray-900 my-2 mx-5"
               href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Gunaratnam+L"
             >
               Publications
             </a>
 
             <Link href="/contact">
-              <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <a className="text-base font-medium text-gray-500 hover:text-gray-900 my-2 mx-5">
                 Contact
               </a>
             </Link>
