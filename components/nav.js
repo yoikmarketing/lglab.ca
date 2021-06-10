@@ -10,7 +10,7 @@ export default function Nav() {
   return (
     <div className="relative z-50 w-full bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex justify-start items-center py-6 md:space-x-10">
+        <div className="flex justify-start items-center py-6 lg:space-x-10">
           <div className="flex justify-start">
             <Link href="/">
               <a>
@@ -19,13 +19,13 @@ export default function Nav() {
               </a>
             </Link>
           </div>
-          <div className="-mr-2 -my-2 md:hidden ml-auto">
+          <div className="-mr-2 -my-2 lg:hidden ml-auto">
             <button type="button" onClick={() => setIsMobileMenuOpen(true)} className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
               <span className="sr-only">Open menu</span>
               <HiOutlineMenu className="h-6 w-6" />
             </button>
           </div>
-          <nav className="hidden md:flex space-x-10">
+          <nav className="hidden lg:flex space-x-10">
 
             <Link href="/about">
               <a className="text-base font-medium text-gray-500 hover:text-gray-900">
@@ -82,7 +82,7 @@ export default function Nav() {
         leave="duration-100 ease-in"
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-0 scale-95"
-        className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-30"
+        className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden z-30"
       >
         <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
           <div className="pt-5 pb-6 px-5">
@@ -117,7 +117,7 @@ export default function Nav() {
                 <Link href="/team">
                   <a className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
                     <span className="ml-3 text-base font-medium text-gray-900">
-                      The Team
+                      Team
                     </span>
                   </a>
                 </Link>
@@ -125,7 +125,7 @@ export default function Nav() {
                 <Link href="/projects">
                   <a className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
                     <span className="ml-3 text-base font-medium text-gray-900">
-                      Our Research
+                      Research
                     </span>
                   </a>
                 </Link>
@@ -150,6 +150,12 @@ export default function Nav() {
               >
                 Publications
               </a>
+
+              <Link href="/funding">
+                <a className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  Funding Sources
+                </a>
+              </Link>
 
               <Link href="/contact">
                 <a className="text-base font-medium text-gray-900 hover:text-gray-700">

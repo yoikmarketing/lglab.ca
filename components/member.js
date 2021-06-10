@@ -16,7 +16,6 @@ export default function Example({ title, lead, people }) {
             <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8">
               {people.map((person) => (
                 <li key={person.name} id={person.id}>
-                  {console.log(person.projects)}
                   <div className="space-y-4">
                     <div className="aspect-w-3 aspect-h-2">
                       <img className="object-cover shadow-lg rounded-lg" src={person.image} alt="" />
