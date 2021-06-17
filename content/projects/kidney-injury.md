@@ -1,5 +1,5 @@
 ---
-name: Kidney Injury
+name: Kidney Injury 1
 description: >-
   Acute kidney injury (AKI) is a serious syndrome that encompasses a spectrum of
   disorders that lead to an abrupt decline in kidney function. AKI most often
