@@ -36,12 +36,12 @@ collections:
     - label: Body
       name: body
       widget: markdown
-- label: Gallery Images
-  label_singular: Gallery Image
-  name: gallery_images
-  description: Images to appear in the gallery.
+- label: News
+  label_singular: News
+  name: news
+  description: Up to date information on LG Lab.
   create: true
-  folder: content/gallery
+  folder: content/news
   identifier_field: title
   slug: "{{slug}}"
   fields:
