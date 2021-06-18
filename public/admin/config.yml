@@ -21,6 +21,10 @@ collections:
     - label: Title
       name: title
       widget: string
+    - label: Qualifications
+      name: qualification
+      widget: string
+      required: false
     - label: Alt Text
       name: alt
       hint: Alt text describing the image for users with screen readers, or when the image is unable to load.

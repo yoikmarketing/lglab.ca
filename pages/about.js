@@ -20,12 +20,11 @@ export default function AboutPage({ aboutInfo, projects }) {
     <Content projects={projects}>
       <div>
         <Heading
-          title="Dr. Lakshman Gunaratnam"
+          title={aboutInfo.title}
+          lead={aboutInfo.qualifications}
         />
         <About
           key = {aboutInfo.title}
-          title = {aboutInfo.title}
-          qualifications = {aboutInfo.qualifications}
           image = {aboutInfo.image}
           alt = {aboutInfo.alt}
           body = {aboutInfo.content}
