@@ -6,6 +6,7 @@ export default function News({ posts }) {
       {posts.map((post) => (
         <Post
           title={post.title}
+          key={post.image}
           description={post.description}
           link={post.link}
           image={post.image}
