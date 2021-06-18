@@ -16,10 +16,17 @@ export default function Post({ title, description, link, image, alt, published }
           <span className="sr-only">View details for {title}</span>
         </button>
       </div>
-      <a href={link}>
-        <p className="mt-2 block text-sm font-medium text-gray-900 truncate pointer-events-none">{title}</p>
-        <p className="block text-sm font-medium text-gray-500 pointer-events-none">{description}</p>
-      </a>
+      { link ? (
+        <a href={link}>
+          <p className="mt-2 block text-sm font-medium text-gray-900 truncate pointer-events-none">{title}</p>
+          <p className="block text-sm font-medium text-gray-500 pointer-events-none">{description}</p>
+        </a>
+      ) : (
+        <>
+          <p className="mt-2 block text-sm font-medium text-gray-900 truncate pointer-events-none">{title}</p>
+          <p className="block text-sm font-medium text-gray-500 pointer-events-none">{description}</p>
+        </>
+      )}
     </li>
   )
 }
