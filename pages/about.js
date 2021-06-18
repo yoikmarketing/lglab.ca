@@ -21,7 +21,7 @@ export default function AboutPage({ aboutInfo, projects }) {
       <div>
         <Heading
           title={aboutInfo.title}
-          lead={aboutInfo.qualifications}
+          lead={aboutInfo.qualification}
         />
         <About
           key = {aboutInfo.title}
