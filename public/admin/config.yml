@@ -49,6 +49,10 @@ collections:
     name: description
     hint: A description of the image
     widget: text
+  - lable: Link
+    name: link
+    hint: A link for more information
+    widget: text
   - label: Alt Text
     name: alt
     hint: Alt text describing the image for users with screen readers, or when the image is unable to load.
@@ -134,6 +138,7 @@ collections:
     hint: Project or projects that the member worked on.
     widget: relation
     multiple: true
+    required: false
     collection: projects
     search_fields:
     - "name"
