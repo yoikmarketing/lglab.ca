@@ -53,6 +53,7 @@ collections:
     name: link
     hint: A link for more information
     widget: text
+    required: false
   - label: Alt Text
     name: alt
     hint: Alt text describing the image for users with screen readers, or when the image is unable to load.

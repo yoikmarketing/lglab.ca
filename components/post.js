@@ -8,14 +8,14 @@ export default function Post({ title, description, link, image, alt, published }
 
   return (
     <li key={image} className="relative">
-      <div className="focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500 group block w-full aspect-w-10 aspect-h-7 rounded-lg overflow-hidden">
-        <a href={image}>
-          <img src={image} alt={alt} className="group-hover:opacity-75 object-cover pointer-events-none" />
-        </a>
-        <button type="button" onClick={() => setOpen(true)} className="absolute inset-0">
-          <span className="sr-only">View details for {title}</span>
-        </button>
-      </div>
+      <a href={image}>
+        <div className="focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500 group block w-full aspect-w-10 aspect-h-7 rounded-lg overflow-hidden">
+            <img src={image} alt={alt} className="group-hover:opacity-75 object-cover pointer-events-none" />
+          <button type="button" onClick={() => setOpen(true)} className="absolute inset-0">
+            <span className="sr-only">View details for {title}</span>
+          </button>
+        </div>
+      </a>
       { link ? (
         <a href={link}>
           <p className="mt-2 block text-sm font-medium text-gray-900 truncate pointer-events-none">{title}</p>
