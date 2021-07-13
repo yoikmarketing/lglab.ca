@@ -1,26 +1,7 @@
 import Link from "next/link"
 
-export default function Project({ id, name, description, image, alt, members, tags }) {
+export default function Project({ id, name, description, image, alt, members }) {
   return(
-    // <div className="bg-gray-100 m-10 p-20">
-    //   <h2>Project Name: {name}</h2>
-    //   <h2>Project Description: {description}</h2>
-    //   <img 
-    //     src={image}
-    //     alt={alt}
-    //     width={600}
-    //     height={400}
-    //   />
-    //   <div>
-    //     <h3>Members working on {name}</h3>
-    //     <ul>
-    //       {members.map((member) => (
-    //         <li key={member.memberId}>{member.name}</li>
-    //       ))}
-    //     </ul>
-    //   </div>
-    //   <h4>Project Tags: {tags}</h4>
-    // </div>
     <div id={id} className="bg-white overflow-hidden">
       <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
