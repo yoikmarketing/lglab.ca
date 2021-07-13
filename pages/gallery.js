@@ -20,7 +20,7 @@ export default function GalleryPage({ gallery, projects }) {
     <Content projects={projects}>
       <Heading
         title="Gallery"
-        lead="See what's going on with the LG Lab."
+        lead="See what’s going on in The Gunaratnam Lab!"
       />
       <div className="container mx-auto px-6 py-10 md:py-16">
         <Gallery posts={gallery} />
