@@ -2,7 +2,7 @@
 export default function News({ posts }) {
   return (
     <>
-      { posts ? ( posts.map((post) => (
+      { (posts.length > 0) ? ( posts.map((post) => (
         <div className="flex flew-row lg:mx-14 lg:my-8 md:mx-10 md:my-4 shadow-lg rounded-lg">
           <div key={post.title} className="flex flex-col flex-1 px-6 py-4">
             <div className="flex justify-center pb-2 text-4xl font-extrabold text-gray-900 sm:text-3xl sm:tracking-tight lg:text-4xl">

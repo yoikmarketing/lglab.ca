@@ -1,7 +1,7 @@
 import Content from "../components/content"
 import { getAllNews } from '../lib/news'
 import Heading from "../components/heading"
-import News from "../components/News"
+import News from "../components/news"
 
 export async function getStaticProps() {
   const news = getAllNews()
