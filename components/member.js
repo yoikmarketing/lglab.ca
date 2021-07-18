@@ -1,15 +1,15 @@
 import Link from "next/link"
 import { FaTwitter, FaLinkedin } from "react-icons/fa"
 
-export default function Example({ title, lead, people }) {
+export default function Member({ title, lead, people }) {
   return (  
-    <div className="bg-white">
-      <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+    <div className="bg-gray-50">
+      <div className="mx-auto py-8 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-12">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
-            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">{title || "Our Team"}</h2>
+            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">{title}</h2>
             <p className="text-xl text-gray-500">
-              {lead || "Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum vestibulum suspendisse. Volutpat eu faucibus vivamus eget bibendum cras."}
+              {lead}
             </p>
           </div>
           <div className="lg:col-span-2">

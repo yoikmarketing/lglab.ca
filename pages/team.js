@@ -23,8 +23,8 @@ export default function Team({ currentMembers, alumniMembers, projects }) {
     <div>
       <Content projects={projects}>
         <Heading
-          title="Dr. Gunaratnam Lab Team"
-          lead="Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum vestibulum suspendisse. Volutpat eu faucibus vivamus eget bibendum cras."
+          title="The Gunaratnam Lab Team"
+          lead=""
         />
         <Member
           title="Current members"

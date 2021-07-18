@@ -36,6 +36,38 @@ collections:
     - label: Body
       name: body
       widget: markdown
+label: Gallery
+  label_singular: Gallery
+  name: gallery
+  description: Social at The Gunaratnam Lab.
+  create: true
+  folder: content/gallery
+  identifier_field: title
+  slug: "{{slug}}"
+  fields:
+  - label: Title
+    name: title
+    hint: The title of the image
+    widget: string
+  - label: Description
+    name: description
+    hint: A description of the image
+    widget: text
+  - label: Alt Text
+    name: alt
+    hint: Alt text describing the image for users with screen readers, or when the image is unable to load.
+    widget: text
+  - label: Image
+    name: image
+    hint: The image file
+    widget: image
+    allow_multiple: false
+  - label: Date published
+    name: published
+    hint: A date to associate with this picture. Perhaps when it was taken.
+    widget: datetime
+    time_format: false
+    picker_utc: true
 - label: News
   label_singular: News
   name: news
@@ -53,7 +85,7 @@ collections:
     name: description
     hint: A description of the image
     widget: text
-  - lable: Link
+  - label: Link
     name: link
     hint: A link for more information
     widget: text
@@ -62,10 +94,12 @@ collections:
     name: alt
     hint: Alt text describing the image for users with screen readers, or when the image is unable to load.
     widget: text
+    required: false
   - label: Image
     name: image
     hint: The image file
     widget: image
+    required: false
     allow_multiple: false
   - label: Date published
     name: published

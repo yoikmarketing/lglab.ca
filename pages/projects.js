@@ -16,8 +16,8 @@ export default function Projects({ lgLabProjects }) {
   return(
     <Content projects={lgLabProjects}>
       <Heading
-        title="LG Lab Research"
-        lead="Find out more about the research we do at the Gunaratnam Lab"
+        title="The Gunaratnam Lab Research"
+        lead="Here in The Gunaratnam Lab we apply basic and translational research to decipher the role of Kidney Injury Molcule-1 in acute kidney injury (AKI), renal transplantation and Renal Cell Carcinoma (RCC)."
       />
 
       {lgLabProjects.map((project) => (

@@ -1,28 +1,25 @@
 import Content from "../components/content"
 import { getAllNews } from '../lib/news'
-import { getAllProjects } from "../lib/projects"
 import Heading from "../components/heading"
 import News from "../components/news"
 
 export async function getStaticProps() {
   const news = getAllNews()
-  const projects = getAllProjects()
   return {
     props: {
-      news,
-      projects
+      news
     }
   }
 }
 
-export default function NewsPage({ news, projects }) {
+export default function NewsPage({ news }) {
   return(
-    <Content projects={projects}>
+    <Content>
       <Heading
         title="News"
-        lead="See what's going on with the LG Lab."
+        lead="Up to date news from The Gunaratnam Lab!"
       />
-      <div className="container mx-auto px-6 py-10 md:py-16">
+      <div className="bg-white overflow-hidden">
         <News posts={news} />
       </div>
     </Content>
