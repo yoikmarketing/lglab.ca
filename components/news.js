@@ -5,8 +5,8 @@ export default function News({ posts }) {
       { (posts.length > 0) ? ( posts.map((post) => (
         <div className="flex flew-row lg:mx-14 lg:my-8 md:mx-10 md:my-4 shadow-lg rounded-lg">
           <div key={post.title} className="flex flex-col flex-1 px-6 py-4">
-            <div className="flex justify-center pb-2 text-4xl font-extrabold text-gray-900 sm:text-3xl sm:tracking-tight lg:text-4xl">
-              <h1>{post.title}</h1>
+            <div className="flex justify-center pt-3 pb-5 text-4xl font-extrabold text-gray-900 sm:text-3xl sm:tracking-tight lg:text-4xl">
+              <h1 className="text-center">{post.title}</h1>
             </div>
             { post.image ? (
               <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 lg:gap-x-10 md:gap-x-6">
