@@ -1,10 +1,11 @@
 import Content from "../components/content"
-import { getAllNews } from '../lib/news'
+// import { getAllNews } from '../lib/news'
 import Heading from "../components/heading"
 import News from "../components/news"
 
 export async function getStaticProps() {
-  const news = getAllNews()
+  // const news = getAllNews()
+  const news = []
   return {
     props: {
       news
