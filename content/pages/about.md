@@ -1,6 +1,6 @@
 ---
 title: Dr. Lakshman Gunaratnam
-qualification: MD, MSc, FRCPC
+qualification: Dr. Robert Zhong Chair in Translational Transplant Research
 alt: Dr. Lakshman Gunaratnam in our lab at the Mathew Mailing Centre of
   Translational Transplantation Research - University Hospital
 image: /images/uploads/drg.png
