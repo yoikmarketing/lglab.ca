@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function About({ image, alt, body }) {
   return (
     <div className="bg-white overflow-hidden">
@@ -6,8 +8,9 @@ export default function About({ image, alt, body }) {
           <div className="relative lg:row-start-1 lg:col-start-2">
             <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
               <figure>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img
+                <div className="aspect-w-12 aspect-h-7">
+                  <Image
+                    layout="fill"
                     className="rounded-lg shadow-lg object-cover object-center"
                     src={image}
                     alt={alt}
@@ -20,8 +23,10 @@ export default function About({ image, alt, body }) {
             </div>
           </div>
           <div className="mt-8 lg:mt-0">
-            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1" dangerouslySetInnerHTML={{ __html: body }}>
-            </div>
+            <div
+              className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1"
+              dangerouslySetInnerHTML={{ __html: body }}
+            ></div>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ export default function Heading({ title, lead }) {
           <h1 className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
             {title || "Take control of your team."}
           </h1>
-          { lead ? (
+          {lead ? (
             <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
               {lead}
             </p>

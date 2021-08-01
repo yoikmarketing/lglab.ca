@@ -1,8 +1,8 @@
-import Content from "../components/content"
-import { getAllGallery } from '../lib/gallery'
-import { getAllProjects } from "../lib/projects"
-import Heading from "../components/heading"
-import Gallery from "../components/gallery"
+import Content from "@components/content"
+import { getAllGallery } from "@lib/gallery"
+import { getAllProjects } from "@lib/projects"
+import Heading from "@components/heading"
+import Gallery from "@components/gallery"
 
 export async function getStaticProps() {
   const gallery = getAllGallery()
@@ -10,13 +10,13 @@ export async function getStaticProps() {
   return {
     props: {
       gallery,
-      projects
-    }
+      projects,
+    },
   }
 }
 
 export default function GalleryPage({ gallery, projects }) {
-  return(
+  return (
     <Content projects={projects}>
       <Heading
         title="Gallery"
@@ -28,4 +28,3 @@ export default function GalleryPage({ gallery, projects }) {
     </Content>
   )
 }
-

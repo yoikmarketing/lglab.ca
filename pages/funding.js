@@ -1,51 +1,50 @@
+import Image from "next/image"
 import Link from "next/link"
-import Content from "../components/content"
-import Funding from "../components/funding"
-import { getAllFundingSources } from "../lib/funding"
+import Content from "@components/content"
+import { getAllFundingSources } from "@lib/funding"
+import Heading from "@components/heading"
 
 export async function getStaticProps() {
   const fundingSources = getAllFundingSources()
   return {
     props: {
-      fundingSources
-    }
+      fundingSources,
+    },
   }
 }
 
 export default function FundingPage({ fundingSources }) {
   return (
     <Content>
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-          <div>
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Funding Sources
-            </h2>
-            <p className="mt-3 max-w-3xl text-lg text-gray-500">
-              The people who make our research a reality.
-            </p>
-            <div className="mt-8 sm:flex">
-              <div className="rounded-md shadow">
-                <Link href="/contact">
-                  <a
-                    className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200"
-                  >
-                    Fund our research
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="mt-10 grid grid-cols-2 gap-2 sm:gap-4 lg:mt-0 md:grid-cols-3 lg:grid-cols-2 max-w-7xl mx-auto">
-            {fundingSources.map((fundingSource) => (
-              <Funding
-                key={fundingSource.name}
-                fsName={fundingSource.name}
-                fsAlt={fundingSource.alt}
-                fsImage={fundingSource.image}
+      <Heading
+        title="Funding Sources"
+        lead="The people who make our research a reality"
+      />
+      <div className="max-w-2xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3 lg:mt-8">
+          {fundingSources.map((funding) => (
+            <div key={funding.name} className="col-span-1 flex justify-center aspect-h-1 aspect-w-1">
+              <Image
+                layout="fill"
+                objectFit="contain"
+                objectPosition="center"
+                src={funding.image}
+                alt={funding.alt}
               />
-            ))}
-          </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="mb-12 sm:flex">
+        <div className="rounded-md mx-auto text-xl text-gray-500">
+          If you&apos;re interested in helping fun our research, please&nbsp;
+          <Link href="/contact">
+            <a
+              className="text-indigo-600 hover:text-indigo-700"
+            >
+              contact us.
+            </a>
+          </Link>
         </div>
       </div>
     </Content>
