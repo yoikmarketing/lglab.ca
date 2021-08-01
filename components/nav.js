@@ -1,10 +1,10 @@
 import { useState } from "react"
+import Image from "next/image"
 import Link from "next/link"
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi"
 import { Transition } from "@headlessui/react"
 
 export default function Nav() {
-
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   return (
@@ -15,18 +15,28 @@ export default function Nav() {
             <Link href="/">
               <a>
                 <span className="sr-only">The Gunaratnam Lab</span>
-                <img className="h-8 w-auto sm:h-10" src="/images/logo.webp" alt="The Gunaratnam Lab logo" />
+                <Image
+                  width={40}
+                  height={40}
+                  className="h-8 w-auto sm:h-10"
+                  src="/images/logo.webp"
+                  alt="The Gunaratnam Lab logo"
+                />
               </a>
             </Link>
           </div>
           <div className="-mr-2 -my-2 lg:hidden ml-auto">
-            <button type="button" onClick={() => setIsMobileMenuOpen(true)} className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+            <button
+              type="button"
+              onClick={() => setIsMobileMenuOpen(true)}
+              className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              aria-expanded="false"
+            >
               <span className="sr-only">Open menu</span>
               <HiOutlineMenu className="h-6 w-6" />
             </button>
           </div>
           <nav className="hidden lg:flex flex-wrap">
-
             <Link href="/about">
               <a className="text-base font-medium text-gray-500 hover:text-gray-900 my-2 mx-5">
                 Dr. Gunaratnam
@@ -65,8 +75,9 @@ export default function Nav() {
 
             <a
               className="text-base font-medium text-gray-500 hover:text-gray-900 my-2 mx-5"
-              href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Gunaratnam+L"
+              href="https://pubmed.ncbi.nlm.nih.gov/?term=Gunaratnam+L&sort=date"
               target="_blank"
+              rel="noreferrer"
             >
               Publications
             </a>
@@ -76,7 +87,6 @@ export default function Nav() {
                 Contact
               </a>
             </Link>
-
           </nav>
         </div>
       </div>
@@ -97,12 +107,22 @@ export default function Nav() {
               <div>
                 <Link href="/">
                   <a>
-                    <img className="h-8 w-auto" src="/images/logo.webp" alt="The Gunaratnam Lab" />
+                    <Image
+                      width={32}
+                      height={32}
+                      className="h-8 w-auto"
+                      src="/images/logo.webp"
+                      alt="The Gunaratnam Lab"
+                    />
                   </a>
                 </Link>
               </div>
               <div className="-mr-2">
-                <button type="button" onClick={() => setIsMobileMenuOpen(false)} className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <button
+                  type="button"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                >
                   <span className="sr-only">Close menu</span>
                   <HiOutlineX className="h-6 w-6" />
                 </button>
@@ -110,7 +130,6 @@ export default function Nav() {
             </div>
             <div className="mt-6">
               <nav className="grid gap-y-8">
-
                 <h2 className="text-gray-600 text-lg mt-2">About</h2>
 
                 <Link href="/about">
@@ -136,7 +155,6 @@ export default function Nav() {
                     </span>
                   </a>
                 </Link>
-                
               </nav>
             </div>
           </div>
@@ -144,7 +162,6 @@ export default function Nav() {
             <h2 className="text-gray-600 text-lg mt-2">More</h2>
 
             <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-
               <Link href="/news">
                 <a className="text-base font-medium text-gray-900 hover:text-gray-700">
                   News
@@ -159,8 +176,9 @@ export default function Nav() {
 
               <a
                 className="text-base font-medium text-gray-900 hover:text-gray-700"
-                href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Gunaratnam+L"
+                href="https://pubmed.ncbi.nlm.nih.gov/?term=Gunaratnam+L&sort=date"
                 target="_blank"
+                rel="noreferrer"
               >
                 Publications
               </a>
@@ -176,7 +194,6 @@ export default function Nav() {
                   Contact
                 </a>
               </Link>
-
             </div>
           </div>
         </div>

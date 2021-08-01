@@ -1,19 +1,19 @@
-import Project from '../components/project'
-import Content from '../components/content'
-import Heading from "../components/heading"
-import { getAllProjects } from '../lib/projects'
+import Project from "@components/project"
+import Content from "@components/content"
+import Heading from "@components/heading"
+import { getAllProjects } from "@lib/projects"
 
 export async function getStaticProps() {
   const lgLabProjects = getAllProjects()
   return {
     props: {
-      lgLabProjects
-    }
+      lgLabProjects,
+    },
   }
 }
 
 export default function Projects({ lgLabProjects }) {
-  return(
+  return (
     <Content projects={lgLabProjects}>
       <Heading
         title="The Gunaratnam Lab Research"
@@ -35,21 +35,3 @@ export default function Projects({ lgLabProjects }) {
     </Content>
   )
 }
-
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/typography'),
-      require('@tailwindcss/aspect-ratio'),
-    ]
-  }
-  ```
-*/

@@ -1,8 +1,8 @@
-import Content from '../components/content'
-import About from '../components/about'
-import Heading from "../components/heading"
-import { getPage } from '../lib/pages'
-import { getAllProjects } from "../lib/projects"
+import Content from "@components/content"
+import About from "@components/about"
+import Heading from "@components/heading"
+import { getPage } from "@lib/pages"
+import { getAllProjects } from "@lib/projects"
 
 export async function getStaticProps() {
   const aboutInfo = await getPage("about")
@@ -10,27 +10,23 @@ export async function getStaticProps() {
   return {
     props: {
       aboutInfo,
-      projects
-    }
+      projects,
+    },
   }
 }
 
 export default function AboutPage({ aboutInfo, projects }) {
-  return(
+  return (
     <Content projects={projects}>
       <div>
-        <Heading
-          title={aboutInfo.title}
-          lead={aboutInfo.qualification}
-        />
+        <Heading title={aboutInfo.title} lead={aboutInfo.qualification} />
         <About
-          key = {aboutInfo.title}
-          image = {aboutInfo.image}
-          alt = {aboutInfo.alt}
-          body = {aboutInfo.content}
+          key={aboutInfo.title}
+          image={aboutInfo.image}
+          alt={aboutInfo.alt}
+          body={aboutInfo.content}
         />
       </div>
     </Content>
   )
 }
-
