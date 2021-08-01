@@ -4,7 +4,7 @@ import Heading from "@components/heading"
 import News from "@components/news"
 
 export async function getStaticProps() {
-  const news = getAllNews()
+  const news = await getAllNews()
   return {
     props: {
       news,

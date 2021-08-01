@@ -2,25 +2,22 @@ import Member from "@components/member"
 import Content from "@components/content"
 import Heading from "@components/heading"
 import { getAllMembers } from "@lib/members"
-import { getAllProjects } from "@lib/projects"
 
 export async function getStaticProps() {
-  const currentMembers = getAllMembers(false)
-  const alumniMembers = getAllMembers(true)
-  const projects = getAllProjects()
+  const currentMembers = await getAllMembers(false)
+  const alumniMembers = await getAllMembers(true)
   return {
     props: {
       currentMembers,
       alumniMembers,
-      projects,
     },
   }
 }
 
-export default function Team({ currentMembers, alumniMembers, projects }) {
+export default function Team({ currentMembers, alumniMembers }) {
   return (
     <div>
-      <Content projects={projects}>
+      <Content>
         <Heading title="The Gunaratnam Lab Team" lead="" />
         <Member title="Current members" people={currentMembers} />
         <Member title="Alumni" people={alumniMembers} />
