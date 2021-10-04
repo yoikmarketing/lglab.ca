@@ -1,5 +1,5 @@
 ---
-name: Yilong Li
+name: Yilong L
 position: MSc Candidate
 graduated: May 23
 institution: Western University
