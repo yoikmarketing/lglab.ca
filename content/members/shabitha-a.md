@@ -1,7 +1,7 @@
 ---
 field of study: NA
 bio: |-
-  Undergraduate Student
+  Master's Student
   Medical Sciences
   Western University
 education:
