@@ -6,7 +6,7 @@ bio: |-
   Western University
 education:
   - NA
-name: Ji Yun Lee
+name: Ji Yun L
 position: PhD
 graduated: Oct 21
 institution: NA
