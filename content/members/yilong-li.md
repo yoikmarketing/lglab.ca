@@ -6,6 +6,6 @@ institution: Western University
 projects:
   - kidney-injury
 alt: NA
-image: /images/uploads/img_0264.jpg
+image: /images/uploads/yilong.jpg
 alumni: false
 ---
