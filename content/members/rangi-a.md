@@ -7,7 +7,7 @@ bio: |-
 education:
   - NA
 name: Rangi A
-position: Undergraduate student
+position: Undergraduate Student
 graduated: Oct 21
 institution: NA
 projects:
