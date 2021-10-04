@@ -1,17 +1,14 @@
 ---
 field of study: NA
-bio: |-
-  Master's Student
-  Medical Sciences
-  Western University
+bio: ""
 education:
   - NA
 name: Shabitha A
-position: "Master's Student "
-graduated: Oct 21
-institution: NA
+position: MSc Candidate
+graduated: May 22
+institution: Western University
 projects:
-  - acute-kidney-injury
+  - kidney-transplantation
 linkedin: NA
 alt: NA
 image: /images/uploads/shabithaa.jpeg
