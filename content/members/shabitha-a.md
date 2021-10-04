@@ -7,7 +7,7 @@ bio: |-
 education:
   - NA
 name: Shabitha A
-position: "Masters Student "
+position: "Master's Student "
 graduated: Oct 21
 institution: NA
 projects:
