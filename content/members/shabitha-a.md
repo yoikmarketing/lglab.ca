@@ -11,6 +11,6 @@ projects:
   - kidney-transplantation
 linkedin: NA
 alt: NA
-image: /images/uploads/shabithaa.jpeg
+image: /images/uploads/b84defe3-8627-4846-82d5-85339ad4e652.jpg.jpeg
 alumni: false
 ---
