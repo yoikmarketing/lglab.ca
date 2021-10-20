@@ -5,7 +5,7 @@ bio: |
 education:
   - changetoposition
 name: Demitra M. Y
-position: "Msc student "
+position: "Msc Graduate "
 graduated: Oct 21
 institution: Western (leave)
 projects:
