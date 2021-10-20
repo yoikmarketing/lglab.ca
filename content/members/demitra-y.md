@@ -1,11 +1,13 @@
 ---
-name: Demitra M. Y
-education:
-  - changetoposition
 field of study: remove
-institution: Western (leave)
 bio: |
   make optional
+education:
+  - changetoposition
+name: Demitra M. Y
+position: "Msc student "
+graduated: Oct 21
+institution: Western (leave)
 projects:
   - renal-cell-carcinoma
 linkedin: NA
