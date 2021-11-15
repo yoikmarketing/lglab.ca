@@ -4,9 +4,9 @@ bio: ""
 education:
   - NA
 name: Maher S
-position: " "
+position: " Vascular Surgeon"
 graduated: Nov 21
-institution: Windsor Regional Hospital – Vascular Surgeon
+institution: Windsor Regional Hospital
 projects:
   - another-project
 linkedin: ""
