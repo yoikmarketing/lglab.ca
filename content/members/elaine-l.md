@@ -1,14 +1,16 @@
 ---
-name: Elaine L
+field of study: NA
+bio: ""
 education:
   - NA
-field of study: NA
-institution: NA
-bio: Research Assistant
+name: Elaine L
+position: Research Assistant
+graduated: Nov 21
+institution: Western University
 projects:
   - acute-kidney-injury
-linkedin: NA
-alt: NA
+linkedin: ""
+alt: Photo of Elaine
 image: /images/uploads/elainel.jpg
 alumni: false
 ---
