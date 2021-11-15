@@ -1,19 +1,17 @@
 ---
 field of study: NA
-bio: |-
-  PhD
+bio: |
   Microbiology & Immunology
-  Western University
 education:
   - NA
 name: Ji Yun L
 position: PhD
 graduated: Oct 21
-institution: NA
+institution: Western University
 projects:
   - acute-kidney-injury
 alt: |
-  NA
+  Photo of Ji Yun
 image: /images/uploads/jiyunl.jpg
 alumni: true
 ---
