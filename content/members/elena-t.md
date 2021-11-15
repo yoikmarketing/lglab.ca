@@ -1,16 +1,15 @@
 ---
-name: Elena T
+field of study: NA
+bio: ""
 education:
   - NA
-field of study: NA
-institution: NA
-bio: |-
-  Post Doc 
-  Microbiology & Immunology 
-  Lawson Health Research Institute
+name: Elena T
+position: "Post Doc Microbiology & Immunology "
+graduated: Nov 21
+institution: Lawson Health Research Institute
 projects:
   - another-project
-linkedin: NA
+linkedin: ""
 alt: Photo of Elena
 image: /images/uploads/elenat.jpg
 alumni: false
