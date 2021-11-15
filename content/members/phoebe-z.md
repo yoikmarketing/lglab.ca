@@ -1,14 +1,16 @@
 ---
-name: Phoebe Z
+field of study: NA
+bio: ""
 education:
   - NA
-field of study: NA
-institution: NA
-bio: McGill University – PhD
+name: Phoebe Z
+position: " "
+graduated: Nov 21
+institution: McGill University – PhD
 projects:
   - another-project
-linkedin: NA
+linkedin: ""
 alt: NA
-image: /images/uploads/profilepic.jpeg
+image: /images/uploads/blank_profile.png
 alumni: true
 ---
