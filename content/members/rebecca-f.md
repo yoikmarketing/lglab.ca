@@ -4,9 +4,9 @@ bio: ""
 education:
   - NA
 name: Rebecca F
-position: " "
+position: " PhD"
 graduated: Nov 21
-institution: University of Toronto – PhD
+institution: University of Toronto
 projects:
   - another-project
 linkedin: ""
