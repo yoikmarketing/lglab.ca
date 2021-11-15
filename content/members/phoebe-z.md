@@ -4,9 +4,9 @@ bio: ""
 education:
   - NA
 name: Phoebe Z
-position: " "
+position: " PhD"
 graduated: Nov 21
-institution: McGill University – PhD
+institution: McGill University
 projects:
   - another-project
 linkedin: ""
