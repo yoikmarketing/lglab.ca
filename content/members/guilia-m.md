@@ -1,14 +1,16 @@
 ---
-name: Guilia M
+field of study: NA
+bio: ""
 education:
   - NA
-field of study: NA
-institution: NA
-bio: University of Buffalo – Resident Doctor
+name: Guilia M
+position: " "
+graduated: Nov 21
+institution: University of Buffalo – Resident Doctor
 projects:
   - another-project
-linkedin: NA
+linkedin: ""
 alt: NA
-image: /images/uploads/profilepic.jpeg
+image: /images/uploads/blank_profile.png
 alumni: true
 ---
