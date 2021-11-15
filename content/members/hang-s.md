@@ -1,14 +1,16 @@
 ---
-name: Hang S
+field of study: NA
+bio: University of Toronto – Family Medicine
 education:
   - NA
-field of study: NA
-institution: NA
-bio: University of Toronto – Family Medicine
+name: Hang S
+position: " "
+graduated: Nov 21
+institution: " "
 projects:
   - another-project
-linkedin: NA
-alt: NA
-image: /images/uploads/profilepic.jpeg
+linkedin: ""
+alt: " "
+image: /images/uploads/blank_profile.png
 alumni: true
 ---
