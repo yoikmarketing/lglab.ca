@@ -1,19 +1,16 @@
 ---
 field of study: NA
-bio: |
-  Post Doc
-  Microbiology & Immunology
-  Western University
+bio: ""
 education:
   - NA
 name: Joshua C
-position: PhD/Post-doctoral Fellow
+position: PhD/Post-doctoral Fellow Microbiology & Immunology
 graduated: Oct 21
-institution: NA
+institution: Western University
 projects:
   - acute-kidney-injury
-linkedin: NA
-alt: NA
+linkedin: ""
+alt: Photo of Joshua
 image: /images/uploads/joshuac.png
 alumni: true
 ---
