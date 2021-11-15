@@ -1,12 +1,12 @@
 ---
 field of study: NA
-bio: University of Toronto – Family Medicine
+bio: ""
 education:
   - NA
 name: Hang S
 position: " "
 graduated: Nov 21
-institution: " "
+institution: University of Toronto – Family Medicine
 projects:
   - another-project
 linkedin: ""
