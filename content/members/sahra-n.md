@@ -4,9 +4,9 @@ bio: ""
 education:
   - NA
 name: Sahra N
-position: " "
+position: "Resident Doctor "
 graduated: Nov 21
-institution: McMaster University – Resident Doctor
+institution: McMaster University
 projects:
   - another-project
 linkedin: ""
