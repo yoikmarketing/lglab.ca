@@ -1,20 +1,17 @@
 ---
 field of study: NA
-bio: |-
-  Undergraduate Student
-  BMSc, Scholar's Electives
-  Western University
+bio: ""
 education:
   - NA
 name: Varunaavee S
 position: Undergraduate Student
 graduated: Oct 21
-institution: NA
+institution: Western University
 projects:
   - acute-kidney-injury
-linkedin: NA
+linkedin: ""
 alt: |
-  NA
+  Photo of Varunaavee
 image: /images/uploads/varunaavees.png
 alumni: true
 ---
