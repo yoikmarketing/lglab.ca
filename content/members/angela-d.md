@@ -3,8 +3,8 @@ name: Angela D
 position: Undergraduate Volunteer
 graduated: May 23
 institution: Western University
-bio: NA
-alt: NA
+bio: ""
+alt: Photo of Angela
 image: /images/uploads/img_0305.jpg
 alumni: false
 ---
