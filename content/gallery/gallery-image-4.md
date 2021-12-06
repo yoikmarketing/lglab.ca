@@ -1,5 +1,5 @@
 ---
-title: Visiting a museum
+title: Dr. G in his leisure time
 description: In front of a WWII fighter jet
 alt: Alt Text
 image: /images/uploads/g4.jpeg
