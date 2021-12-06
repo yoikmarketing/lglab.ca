@@ -6,5 +6,5 @@ institution: Western University
 bio: ""
 alt: Photo of Yashan
 image: /images/uploads/yashanc.png
-alumni: false
+alumni: true
 ---
