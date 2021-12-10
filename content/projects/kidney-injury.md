@@ -16,5 +16,5 @@ description: >-
 alt: Cross-section of an injured kidney expressing KIM-1 (green) in the tubules.
 image: /images/uploads/out.jpg
 members:
-  - elaine-l
+  - elena-t
 ---
