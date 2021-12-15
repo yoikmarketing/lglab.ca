@@ -19,8 +19,8 @@ export default function Team({ currentMembers, alumniMembers }) {
     <div>
       <Content>
         <Heading title="The Gunaratnam Lab Team" lead="" />
-        <Member title="Current members" people={currentMembers} />
-        <Member title="Alumni" people={alumniMembers} />
+        <Member title="Current members" people={currentMembers} isAlum={false} />
+        <Member title="Alumni" people={alumniMembers} isAlum={true} />
       </Content>
     </div>
   )

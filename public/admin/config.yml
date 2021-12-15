@@ -51,6 +51,7 @@ collections:
         widget: string
       - label: Description
         name: description
+        required: false
         hint: A description of the image
         widget: text
       - label: Alt Text
@@ -161,6 +162,7 @@ collections:
         name: position
         widget: string
       - label: Graduation date
+        required: false
         name: graduated
         widget: date
         format: "MMM YY"

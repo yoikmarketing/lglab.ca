@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { FaTwitter, FaLinkedin } from "react-icons/fa"
 
-export default function Member({ title, lead, people }) {
+export default function Member({ title, lead, people, isAlum }) {
   return (
     <div className="bg-gray-50">
       <div className="mx-auto py-8 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-12">
@@ -29,9 +29,9 @@ export default function Member({ title, lead, people }) {
                     <div className="text-lg leading-6 font-medium space-y-1">
                       <h3>{person.name}</h3>
                       <p className="text-indigo-600">{person.position}</p>
-                      <p className="text-indigo-600">
+                      {isAlum && <p className="text-indigo-600">
                         Graduated {person.graduated}
-                      </p>
+                      </p>}
                     </div>
                     {person.bio ? (
                       <div className="text-lg">
