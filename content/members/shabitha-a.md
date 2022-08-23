@@ -4,7 +4,7 @@ bio: ""
 education:
   - NA
 name: Shabitha A
-position: MSc Candidate
+position: PhD Candidate
 graduated: May 22
 institution: Western University
 projects:
