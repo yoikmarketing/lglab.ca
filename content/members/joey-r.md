@@ -1,5 +1,5 @@
 ---
-name: Joey R.
+name: Joey R
 position: Summer Volunteer
 graduated: Sep 22
 institution: University of Ottawa
