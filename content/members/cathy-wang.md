@@ -1,5 +1,5 @@
 ---
-name: Cathy Wang
+name: Cathy W
 position: Medical Student
 graduated: May 25
 institution: Western University
