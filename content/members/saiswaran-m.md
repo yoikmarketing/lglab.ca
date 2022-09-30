@@ -1,5 +1,5 @@
 ---
-name: Saiswaran M.
+name: Saiswaran M
 position: MSc Candidate
 graduated: Sep 24
 institution: Western University
