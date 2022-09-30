@@ -5,6 +5,6 @@ graduated: May 23
 institution: Western University
 bio: ""
 alt: Photo of Shobina
-image: /images/uploads/image.jpeg
+image: /images/uploads/blank_profile.png
 alumni: false
 ---
