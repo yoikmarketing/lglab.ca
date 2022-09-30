@@ -4,6 +4,6 @@ position: Undergraduate Volunteer
 graduated: May 23
 institution: Western University
 alt: N/A
-image: /images/uploads/blank_profile.png
+image: /images/uploads/image.jpeg
 alumni: false
 ---
