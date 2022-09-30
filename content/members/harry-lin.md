@@ -1,5 +1,5 @@
 ---
-name: Harry Lin
+name: Harry L
 position: Undergraduate Volunteer
 graduated: May 23
 institution: Western University
