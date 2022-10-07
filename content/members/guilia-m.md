@@ -5,7 +5,7 @@ education:
   - NA
 name: Guilia M
 position: " "
-graduated: Nov 21
+graduated: May 14
 institution: University of Buffalo – Resident Doctor
 projects:
   - another-project
