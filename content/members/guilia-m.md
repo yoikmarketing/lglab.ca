@@ -3,7 +3,7 @@ field of study: NA
 bio: ""
 education:
   - NA
-name: Guilia M
+name: Giulia M
 position: " "
 graduated: May 14
 institution: University of Buffalo – Resident Doctor
