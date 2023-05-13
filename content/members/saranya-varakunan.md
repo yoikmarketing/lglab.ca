@@ -1,5 +1,5 @@
 ---
-name: Saranya Varakunan
+name: Saranya V
 position: "NSERC student "
 graduated: Aug 23
 institution: Western University
