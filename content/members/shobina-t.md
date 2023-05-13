@@ -6,5 +6,5 @@ institution: Western University
 bio: ""
 alt: Photo of Shobina
 image: /images/uploads/shobina.jpeg
-alumni: false
+alumni: true
 ---
